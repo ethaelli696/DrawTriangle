@@ -18,7 +18,7 @@ namespace DrawTriangle
             
         }
 
-        public void drawTriangle(int x1, int x2, int y1, int y2, int x3, int y3, Pen pen)
+        public void DrawTriangle(Pen pen, int x1, int x2, int y1, int y2, int x3, int y3)
         {
             //draws a triangle
             Graphics g = this.CreateGraphics();
